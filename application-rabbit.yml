@@ -1,6 +1,7 @@
 spring:
   rabbitmq:
-    custom-configuration-test:
+    custom:
+      configuration-test:
         queueRoutingKey: route1
         exchange: exchange1
         queue: queue1
